@@ -1,0 +1,40 @@
+header {
+  background-color: black;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  height: 70px;
+}
+.navbar * {
+  color: #fff;
+}
+.navbar .logo {
+  font-size: 31px;
+}
+.bx-cart {
+  font-size: 35px;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  color: black;
+}
+.cart_link {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.cart_link .counter {
+  position: absolute;
+  top: -5px;
+  left: 25px;
+}
